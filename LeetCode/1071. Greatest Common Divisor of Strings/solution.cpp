@@ -28,7 +28,7 @@ public
  
     string gcdOfStrings(string str1, string str2) {
       
-        for (int len=size(str2); len>0; len--){
+        for(int len=size(str2); len>0; len--){
             string minstr=str2.substr(0,len);
             if(check(str1, minstr) && check(str2, minstr)) return minstr;
         }
