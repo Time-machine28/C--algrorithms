@@ -8,10 +8,6 @@
  *       The prefix's lenth is just gcd(size(str1),size(str2)).
  */
 
-
-#include <bits/stdc++>h>
-using namespace std;
-
 class Solution{
 public:
       string gcdOfStrings(string str1, string str2){
