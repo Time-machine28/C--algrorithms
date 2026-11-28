@@ -9,9 +9,6 @@
  *   strings; the first one that can be repeated to form both strings is correct answer. 
  */
 
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution{
 public
 :
